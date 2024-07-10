@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
+import 'dotenv/config'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -13,7 +14,7 @@ const config = {
   favicon: "img/xfsc_logo.svg",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "http://localhost:3000/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -47,13 +48,7 @@ const config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           routeBasePath: "/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        
         theme: {
           customCss: require.resolve("./src/styles/main.scss"),
         },
@@ -169,7 +164,7 @@ const config = {
           },
         ],
 
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Eclipse Tractus-X. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

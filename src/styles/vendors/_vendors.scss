@@ -128,6 +128,8 @@ nav {
 // Footer style
 .footer {
     background: $earthBlue;
+    padding: 2rem 2rem 4rem;
+    position: relative;
 
     &__links{
         width: 80%;
@@ -143,6 +145,13 @@ nav {
         &:hover {
             color: $whiteColor;
         }
+    }
+
+    &__copyright{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 1rem;
     }
 
     .container {
