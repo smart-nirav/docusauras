@@ -1,0 +1,30 @@
+@import '../../styles/abstracts/abstracts';
+
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  gap: 1.25rem;
+  padding: 10rem 0 8rem;
+  max-width: 50%;
+  margin: 0 auto;
+
+  @include respond($mobile) {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 4.06rem;
+    line-height: 4.87rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.87rem;
+    line-height: 3rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+  }
+}

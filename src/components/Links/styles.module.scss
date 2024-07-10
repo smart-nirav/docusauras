@@ -1,0 +1,21 @@
+@import '../../styles/abstracts/abstracts';
+
+.linksContainer {
+    padding: 2rem;
+
+    .linkBody{
+        margin-top: 1.25rem;
+
+        h3{
+            margin: 1.5rem 0 1rem;
+        }
+
+        ul{
+            li{
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
