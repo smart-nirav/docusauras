@@ -13,7 +13,7 @@ const config = {
   tagline: "",
   favicon: "img/xfsc_logo.svg",
 
-  // Set the production url of your site here
+  // Set the production url of site here
   url: "http://localhost:3000/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -22,7 +22,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "smartSense", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "XFSC", // Usually your repo name.
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
@@ -96,12 +96,6 @@ const config = {
             label: "FAQ",
             to: "/faq",
           },
-
-          // {
-          //   to: "/blog",
-          //   label: "Blog",
-          //   position: "left",
-          // },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "XFSC GitLab",
@@ -115,15 +109,6 @@ const config = {
           src: "img/footer_logo.png",
         },
         links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Tutorial",
-          //       to: "/docs/intro",
-          //     },
-          //   ],
-          // },
           {
             // title: "Community",
             items: [
@@ -148,10 +133,6 @@ const config = {
           {
             // title: "More",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
               {
                 label: "Links",
                 href: "/links",
