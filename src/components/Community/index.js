@@ -9,38 +9,82 @@ const CommunityComp = () => {
 
         <div className={styles.commuintyBody}>
           <p>
-            Become part of an innovative open-source project shaping the future of technology. Collaborate with experts, grow your skills, and make a real impact. Let's build the future together! 
+            Become part of an innovative open-source project shaping the future
+            of technology. Collaborate with experts, grow your skills, and make
+            a real impact. Let's build the future together!
           </p>
 
           <h3 className="sub-header">Communication rules</h3>
 
           <p>
-            A pre-requisite for joining the Tractus-X communication channels is an Eclipse Foundation Account.
+            A pre-requisite for joining the Eclipse XFSC communication channels
+            is an Eclipse Foundation Account.
           </p>
 
           <p>
-            In addition, we encourage you to sign the Eclipse Contribution Agreement (ECA) to contribute to our Tractus-X project. For example, report and fix bugs or implement enhancements according to the Tractus-X roadmap. See our contributing guide. 
+            In addition, we encourage you to sign the Eclipse Contribution
+            Agreement (ECA) to contribute to our Eclipse XFSC project. For
+            example, report and fix bugs or implement enhancements according to
+            the Eclipse XFSC roadmap. See our contributing guide.
           </p>
 
           <ul>
             <li>
-              - For a first contact please use our Tractus-X mailing list (tractusx-dev@eclipse.org) to get in touch with our   community or a specific product team you want to contribute. 
+              - For initial contact, please use our XFSC mailing list: [XFSC
+              Mailing List]
+              <a
+                href="https://projects.eclipse.org/projects/technology.xfsc/contact"
+                target="_blank"
+              >
+                (https://projects.eclipse.org/projects/technology.xfsc/contact).
+              </a>{" "}
+              This is the best way to reach out to our community or connect with
+              a specific product team you’d like to contribute to.
             </li>
             <li>
-              - For quick and informal syncs please use our Eclipse Matrix Space to align on easy topics, ask questions, share a link or a bite-size piece of information. 
+              - For quick, informal discussions, questions, or sharing small
+              pieces of information, join our Eclipse Matrix Space: [XFSC
+              General Chat Room / Matrix]
+              <a
+                href="https://matrix.to/#/!flmTthUebPfZFnEyxM:matrix.org?via=vereign.com&via=matrix.org&via=dataport.modular.im"
+                target="_blank"
+              >
+                {" "}
+                (https://matrix.to/#/!flmTthUebPfZFnEyxM:matrix.org?via=vereign.com&via=matrix.org&via=dataport.modular.im).
+              </a>
+            </li>
+            <li>
+              - For general inquiries, please contact us at{" "}
+              <a href="mailto:info@gxfs.de" target="_blank">
+                info@gxfs.de
+              </a>{" "}
+              or reach out to the project lead, Lauresha Memeti, at{" "}
+              <a href="mailto:lauresha.memeti@eco.de." target="_blank">
+                lauresha.memeti@eco.de.
+              </a>
             </li>
           </ul>
 
-          <h3 className="sub-header">
-            Open meetings
-          </h3>
+          <h3 className="sub-header">Open meetings</h3>
 
           <p>
-            Community Matrix channel: <a href="https://app.element.io/#/room/!flmTthUebPfZFnEyxM:matrix.org" target="_blank">the XFSC Developers' Community Chat </a>
+            Community Matrix channel:{" "}
+            <a
+              href="https://app.element.io/#/room/!flmTthUebPfZFnEyxM:matrix.org"
+              target="_blank"
+            >
+              the XFSC Developers' Community Chat{" "}
+            </a>
           </p>
 
           <p>
-            Catalogue WG call: <a href="https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service/-/wikis/XFSC-Catalogue-Developers'-Community-Call-Meetings" target="_blank">https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service/-/wikis/XFSC-Catalogue-Developers'-Community-Call-Meetings</a>
+            Catalogue WG call:{" "}
+            <a
+              href="https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service/-/wikis/XFSC-Catalogue-Developers'-Community-Call-Meetings"
+              target="_blank"
+            >
+              https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service/-/wikis/XFSC-Catalogue-Developers'-Community-Call-Meetings
+            </a>
           </p>
         </div>
       </div>

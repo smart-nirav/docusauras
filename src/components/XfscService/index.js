@@ -1,5 +1,5 @@
 import React from "react";
-import ServieImg from "@site/static/img/Services_Overview.png";
+import ServieImg from "@site/static/img/Services_Overview.jpg";
 import styles from "./styles.module.scss";
 import Link from "@docusaurus/Link";
 

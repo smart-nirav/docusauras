@@ -5,7 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
-import 'dotenv/config'
+import "dotenv/config";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -48,7 +48,7 @@ const config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           routeBasePath: "/",
         },
-        
+
         theme: {
           customCss: require.resolve("./src/styles/main.scss"),
         },
@@ -89,13 +89,13 @@ const config = {
             to: "/community",
           },
           {
-            label: "Links",
+            label: "Project Links",
             to: "/links",
           },
-          {
-            label: "FAQ",
-            to: "/faq",
-          },
+          // {
+          //   label: "FAQ",
+          //   to: "/faq",
+          // },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "XFSC GitLab",
@@ -110,7 +110,7 @@ const config = {
         },
         links: [
           {
-            // title: "Community",
+            title: "XFSC Foundation",
             items: [
               {
                 label: "About XFSC",
@@ -125,27 +125,69 @@ const config = {
                 href: "/services",
               },
               {
-                label:'Community',
-                href:'/community'
-              }
+                label: "Community",
+                href: "/community",
+              },
+              {
+                label: "Project Links",
+                href: "/links",
+              },
             ],
           },
           {
-            // title: "More",
+            title: "Developer Guide",
             items: [
               {
-                label: "Links",
-                href: "/links",
+                label: "Project Roles",
+                href: "/developer-guide/project-roles",
               },
               {
-                label: "FAQ",
-                href: "/faq",
+                label: "OnBoarding Contributers",
+                href: "/developer-guide/on-boarding",
+              },
+              {
+                label: "Code Contribution",
+                href: "/developer-guide/code-contribution",
+              },
+              {
+                label: "Code Review",
+                href: "/developer-guide/code-review",
+              },
+            ],
+          },
+          {
+            title: "Services",
+            items: [
+              {
+                label: "ICAM & Trust over IP",
+                href: "/services/icam-and-trust/",
+              },
+              {
+                label: "Decentralized Catalogue",
+                href: "/services/decentralized-catalogue/",
+              },
+              {
+                label: "Orchestration & Monitoring",
+                href: "/services/orchestration-monitoring/",
+              },
+              {
+                label: "Portal",
+                href: "/services/portal/",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Main Project",
+                href: "https://www.gxfs.eu/",
               },
             ],
           },
         ],
 
-        copyright: `Copyright © ${new Date().getFullYear()} Eclipse Tractus-X. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Eclipse Tractus-X. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
