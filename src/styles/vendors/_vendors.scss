@@ -135,8 +135,13 @@ nav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
+        @include respond($tablet) {
+            width: 100%;
+        }
+
         @include respond($mobile) {
             width: 100%;
+            grid-template-columns: 1fr 1fr;
         }
     }
 

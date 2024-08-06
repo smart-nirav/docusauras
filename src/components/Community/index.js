@@ -25,7 +25,8 @@ const CommunityComp = () => {
             In addition, we encourage you to sign the Eclipse Contribution
             Agreement (ECA) to contribute to our Eclipse XFSC project. For
             example, report and fix bugs or implement enhancements according to
-            the Eclipse XFSC roadmap. See our contributing guide.
+            the Eclipse XFSC roadmap.{" "}
+            <a href="/developer-guide">See our contributing guide.</a>
           </p>
 
           <ul>

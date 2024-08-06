@@ -106,7 +106,7 @@ const config = {
       footer: {
         style: "dark",
         logo: {
-          src: "img/footer_logo.png",
+          src: "img/footer_logo.svg",
         },
         links: [
           {
@@ -182,6 +182,26 @@ const config = {
               {
                 label: "Main Project",
                 href: "https://www.gxfs.eu/",
+              },
+              {
+                label: "Eclipse Foundation",
+                href: "https://www.eclipse.org/org/",
+              },
+              {
+                label: "Code of Conduct",
+                href: "https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php",
+              },
+              {
+                label: "Mailing List",
+                href: "https://accounts.eclipse.org/mailing-list",
+              },
+              {
+                label: "Matrix Chat",
+                href: "https://chat.eclipse.org/#/home/",
+              },
+              {
+                label: "Report Vulnerability",
+                href: "https://github.com/eclipse-tractusx/sig-security/issues/new/choose",
               },
             ],
           },
