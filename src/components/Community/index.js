@@ -31,27 +31,24 @@ const CommunityComp = () => {
 
           <ul>
             <li>
-              - For initial contact, please use our XFSC mailing list: [XFSC
-              Mailing List]
+              - For initial contact, please use our XFSC mailing list:{" "}
               <a
                 href="https://projects.eclipse.org/projects/technology.xfsc/contact"
                 target="_blank"
               >
-                (https://projects.eclipse.org/projects/technology.xfsc/contact).
+                XFSC Mailing List
               </a>{" "}
               This is the best way to reach out to our community or connect with
               a specific product team you’d like to contribute to.
             </li>
             <li>
               - For quick, informal discussions, questions, or sharing small
-              pieces of information, join our Eclipse Matrix Space: [XFSC
-              General Chat Room / Matrix]
+              pieces of information, join our Eclipse Matrix Space:{" "}
               <a
                 href="https://matrix.to/#/!flmTthUebPfZFnEyxM:matrix.org?via=vereign.com&via=matrix.org&via=dataport.modular.im"
                 target="_blank"
               >
-                {" "}
-                (https://matrix.to/#/!flmTthUebPfZFnEyxM:matrix.org?via=vereign.com&via=matrix.org&via=dataport.modular.im).
+                XFSC General Chat Room / Matrix
               </a>
             </li>
             <li>

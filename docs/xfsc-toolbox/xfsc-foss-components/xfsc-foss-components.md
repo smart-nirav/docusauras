@@ -1,5 +1,5 @@
 ---
-title: XFSC Foos Components
+title: XFSC FOSS Components
 ---
 
 ### ICAM & Trust over IP (Identity, Credential and Access Management)

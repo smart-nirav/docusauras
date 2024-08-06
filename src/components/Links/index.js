@@ -137,7 +137,7 @@ const LinksComp = () => {
 
               <ul>
                 <li>
-                  <a href="https://eclipse-tractusx.github.io/" target="_blank">
+                  <a href="https://www.gxfs.eu/" target="_blank">
                     <img src={webIcon} />
                     Website
                   </a>
