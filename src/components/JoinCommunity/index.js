@@ -27,9 +27,9 @@ const CommunityList = [
   },
   {
     id: 4,
-    title: "Services",
+    title: "XFSC Toolbox",
     icon: IconService,
-    link: "/services",
+    link: "/xfsc-toolbox",
   },
 ];
 

@@ -82,7 +82,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "servicesSidebar",
             position: "left",
-            label: "Services",
+            label: "XFSC Toolbox",
           },
           {
             label: "Community",
@@ -121,8 +121,8 @@ const config = {
                 href: "/developer-guide",
               },
               {
-                label: "Services",
-                href: "/services",
+                label: "XFSC Toolbox",
+                href: "/xfsc-toolbox",
               },
               {
                 label: "Community",
@@ -156,7 +156,7 @@ const config = {
             ],
           },
           {
-            title: "Services",
+            title: "XFSC Toolbox",
             items: [
               {
                 label: "ICAM & Trust over IP",

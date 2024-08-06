@@ -10,7 +10,7 @@ const XfscServices = () => {
 
       <img src={ServieImg} />
 
-      <Link to="/services" className="primaryBtn">
+      <Link to="/xfsc-toolbox" className="primaryBtn">
         Learn More
       </Link>
     </div>
