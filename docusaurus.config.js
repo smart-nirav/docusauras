@@ -160,19 +160,19 @@ const config = {
             items: [
               {
                 label: "ICAM & Trust over IP",
-                href: "/services/icam-and-trust/",
+                href: "/xfsc-toolbox/xfsc-foos-components/icam-and-trust/",
               },
               {
                 label: "Decentralized Catalogue",
-                href: "/services/decentralized-catalogue/",
+                href: "/xfsc-toolbox/xfsc-foos-components/decentralized-catalogue/",
               },
               {
                 label: "Orchestration & Monitoring",
-                href: "/services/orchestration-monitoring/",
+                href: "/xfsc-toolbox/xfsc-foos-components/orchestration-monitoring/",
               },
               {
                 label: "Portal",
-                href: "/services/portal/",
+                href: "/xfsc-toolbox/xfsc-foos-components/portal/",
               },
             ],
           },
