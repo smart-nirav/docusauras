@@ -50,17 +50,17 @@ export const Box = ({ name, img, href }) => (
   <Box
     name="Identity, Credential & Access Management"
     img="/img/service_1.png"
-    href="/xfsc-toolbox/xfsc-foos-components/icam-and-trust"
+    href="/xfsc-toolbox/xfsc-foss-components/icam-and-trust"
   />
   <Box
     name="Decenralised Catalogue and Contracting Service"
     img="/img/service_2.png"
-    href="/xfsc-toolbox/xfsc-foos-components/decentralized-catalogue"
+    href="/xfsc-toolbox/xfsc-foss-components/decentralized-catalogue"
   />
   <Box
     name="Orchestration & Monitoring"
     img="/img/service_3.png"
-    href="/xfsc-toolbox/xfsc-foos-components/orchestration-monitoring"
+    href="/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring"
   />
-  <Box name="Portal" img="/img/service_4.png" href="/xfsc-toolbox/xfsc-foos-components/portal" />
+  <Box name="Portal" img="/img/service_4.png" href="/xfsc-toolbox/xfsc-foss-components/portal" />
 </div>

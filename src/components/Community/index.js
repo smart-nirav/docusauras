@@ -18,15 +18,23 @@ const CommunityComp = () => {
 
           <p>
             A pre-requisite for joining the Eclipse XFSC communication channels
-            is an Eclipse Foundation Account.
+            is an{" "}
+            <a
+              href="https://accounts.eclipse.org/user/register?destination=user"
+              target="_blank"
+            >
+              Eclipse Foundation Account.
+            </a>
           </p>
 
           <p>
-            In addition, we encourage you to sign the Eclipse Contribution
-            Agreement (ECA) to contribute to our Eclipse XFSC project. For
-            example, report and fix bugs or implement enhancements according to
-            the Eclipse XFSC roadmap.{" "}
-            <a href="/developer-guide">See our contributing guide.</a>
+            In addition, we encourage you to sign the{" "}
+            <a href="https://www.eclipse.org/legal/eca/" target="_blank">
+              Eclipse Contribution Agreement (ECA)
+            </a>{" "}
+            to contribute to our Eclipse XFSC project. For example, report and
+            fix bugs or implement enhancements according to the Eclipse XFSC
+            roadmap. <a href="/developer-guide">See our contributing guide.</a>
           </p>
 
           <ul>

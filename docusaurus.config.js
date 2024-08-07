@@ -97,7 +97,7 @@ const config = {
           //   to: "/faq",
           // },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://gitlab.eclipse.org/eclipse/xfsc/",
             label: "XFSC GitLab",
             position: "right",
           },
@@ -110,7 +110,7 @@ const config = {
         },
         links: [
           {
-            title: "XFSC Foundation",
+            title: "Eclipse XFSC",
             items: [
               {
                 label: "About XFSC",
@@ -160,19 +160,19 @@ const config = {
             items: [
               {
                 label: "ICAM & Trust over IP",
-                href: "/xfsc-toolbox/xfsc-foos-components/icam-and-trust/",
+                href: "/xfsc-toolbox/xfsc-foss-components/icam-and-trust/",
               },
               {
                 label: "Decentralized Catalogue",
-                href: "/xfsc-toolbox/xfsc-foos-components/decentralized-catalogue/",
+                href: "/xfsc-toolbox/xfsc-foss-components/decentralized-catalogue/",
               },
               {
                 label: "Orchestration & Monitoring",
-                href: "/xfsc-toolbox/xfsc-foos-components/orchestration-monitoring/",
+                href: "/xfsc-toolbox/xfsc-foss-components/orchestration-monitoring/",
               },
               {
                 label: "Portal",
-                href: "/xfsc-toolbox/xfsc-foos-components/portal/",
+                href: "/xfsc-toolbox/xfsc-foss-components/portal/",
               },
             ],
           },
@@ -180,7 +180,7 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Main Project",
+                label: "Main Project Website",
                 href: "https://www.gxfs.eu/",
               },
               {
@@ -192,16 +192,12 @@ const config = {
                 href: "https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php",
               },
               {
-                label: "Mailing List",
-                href: "https://accounts.eclipse.org/mailing-list",
+                label: "XFSC Mailing list",
+                href: "https://accounts.eclipse.org/mailing-list/xfsc-dev",
               },
               {
                 label: "Matrix Chat",
                 href: "https://chat.eclipse.org/#/home/",
-              },
-              {
-                label: "Report Vulnerability",
-                href: "https://github.com/eclipse-tractusx/sig-security/issues/new/choose",
               },
             ],
           },
