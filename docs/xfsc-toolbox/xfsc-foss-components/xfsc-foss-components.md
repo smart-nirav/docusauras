@@ -36,7 +36,7 @@ The Portal within XFSC toolbox serves as an integration layer, highlighting Fede
 
 #### The initialset of services includes: 
 
-<div class="text-center">![Doc img](/img/Services_Overview.JPG)</div>
+<div class="text-center">![Doc img](/img/Services_Overview.png)</div>
 
 export const Box = ({ name, img, href }) => (
 <a class="box-container" href={href}>
